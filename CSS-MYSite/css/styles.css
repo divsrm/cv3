@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: yellow;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #B9FFF8;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #6930C3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+   background-color: #FF1E00;
+}
+
+.bottom-container {
+  background-color: #6A2C70;
+  padding: 50px 0 20px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro {
+  text-decoration: line-through;
+  color: white;
+}
+
+.divpic {
+  width: 300px;
+}
+
+.taekwondo {
+  width: 150px;
+  float: left;
+}
+
+.swim {
+  width: 150px;
+  float: right;
+}
+
+.gaming {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #C21010 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px
+}
+
+.btn {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #a02bb8);
+  background-image: -moz-linear-gradient(top, #d93434, #a02bb8);
+  background-image: -ms-linear-gradient(top, #d93434, #a02bb8);
+  background-image: -o-linear-gradient(top, #d93434, #a02bb8);
+  background-image: linear-gradient(to bottom, #d93434, #a02bb8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa3c3c;
+  background-image: -webkit-linear-gradient(top, #fa3c3c, #edc5c5);
+  background-image: -moz-linear-gradient(top, #fa3c3c, #edc5c5);
+  background-image: -ms-linear-gradient(top, #fa3c3c, #edc5c5);
+  background-image: -o-linear-gradient(top, #fa3c3c, #edc5c5);
+  background-image: linear-gradient(to bottom, #fa3c3c, #edc5c5);
+  text-decoration: none;
+}
